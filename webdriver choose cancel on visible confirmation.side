@@ -1,0 +1,42 @@
+{
+  "id": "7e172634-eda0-4b33-bf06-da30ce5beeb4",
+  "version": "2.0",
+  "name": "webdriver choose cancel on visible confirmation",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "51b828cb-b867-4adb-91cf-92724cb48ad3",
+    "name": "webdriver choose cancel",
+    "commands": [{
+      "id": "1b18a264-eab1-4c4c-bb4a-d8619e702ed3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cf3eef06-3eee-4223-a321-f7ccc5e1f498",
+      "comment": "",
+      "command": "click",
+      "target": "id=confirm",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68240e07-1429-43c2-90f5-225a299c8b95",
+      "comment": "",
+      "command": "webdriverChooseCancelOnVisibleConfirmation",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "8a921ddd-ac14-4afd-95e4-f23a19dd124e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["51b828cb-b867-4adb-91cf-92724cb48ad3"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

@@ -1,0 +1,212 @@
+{
+  "id": "1b42cfd1-0d1f-4ef6-92d1-54873a0c4274",
+  "version": "2.0",
+  "name": "assertionLogin",
+  "url": "https://eprint.com.hr/demo/login.php",
+  "tests": [{
+    "id": "88cee8bd-c15f-48e0-bebe-8374dd5c69a4",
+    "name": "loginTest",
+    "commands": [{
+      "id": "fa547f8e-5aec-4544-96ee-e9dcfa75100f",
+      "comment": "",
+      "command": "open",
+      "target": "https://eprint.com.hr/demo/login.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77b7682f-1917-45f4-ab55-94bf93e18774",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x707",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddb323d6-f8c5-4bc6-9e0c-047313261186",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "287db876-4f37-4a35-a28a-153600844f66",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=tr:nth-child(1) > td > p > input", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${username}"
+    }, {
+      "id": "b8b44d4e-1ac2-4205-acfd-b612724d102f",
+      "comment": "",
+      "command": "click",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7004b859-3bc1-4ee3-affc-fb8259f3064d",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "${password}"
+    }, {
+      "id": "06cb196f-016a-438e-81bf-6a75ca55788c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=tr:nth-child(2) input", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//tr[2]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "73afe810-1483-4076-94dd-2394d54d136e",
+      "comment": "",
+      "command": "click",
+      "target": "name=FormsButton2",
+      "targets": [
+        ["name=FormsButton2", "name"],
+        ["css=tr:nth-child(3) input", "css:finder"],
+        ["xpath=//input[@name='FormsButton2']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/p/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc1f4472-39a8-4539-bafa-ed4b77b35600",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > center",
+      "targets": [
+        ["css=font > center", "css:finder"],
+        ["xpath=//font/center", "xpath:position"],
+        ["xpath=//center[contains(.,'**Failed Login**')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8d721f5-43b2-4b9b-90f8-63cdbae63b31",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > center",
+      "targets": [
+        ["css=font > center", "css:finder"],
+        ["xpath=//font/center", "xpath:position"],
+        ["xpath=//center[contains(.,'**Failed Login**')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c9fe91-7898-4486-9e20-ea30862a11d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=center > b",
+      "targets": [
+        ["css=center > b", "css:finder"],
+        ["xpath=//center/b", "xpath:position"],
+        ["xpath=//b[contains(.,'**Failed Login**')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5df19cd-1a4d-4fc8-8b04-1e0ab914ce92",
+      "comment": "",
+      "command": "click",
+      "target": "css=font > center",
+      "targets": [
+        ["css=font > center", "css:finder"],
+        ["xpath=//font/center", "xpath:position"],
+        ["xpath=//center[contains(.,'**Failed Login**')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6287729a-d6fb-423f-a8ed-8337d9918fb7",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=center > b",
+      "targets": [
+        ["css=center > b", "css:finder"],
+        ["xpath=//center/b", "xpath:position"],
+        ["xpath=//b[contains(.,'**Failed Login**')]", "xpath:innerText"]
+      ],
+      "value": "**Failed Login**"
+    }]
+  }, {
+    "id": "d9c9686a-b45c-434f-aa8a-a504bea5a67e",
+    "name": "invalidCredential",
+    "commands": [{
+      "id": "4ca39c77-98fd-46e9-88f6-46c5c6a634f6",
+      "comment": "",
+      "command": "store",
+      "target": "user1",
+      "targets": [],
+      "value": "username"
+    }, {
+      "id": "33f1ab57-2156-4859-91ab-f6a89d98e029",
+      "comment": "",
+      "command": "store",
+      "target": "pwd1",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "528ae8f4-5f7b-48f4-bc85-982e4af196c8",
+      "comment": "",
+      "command": "run",
+      "target": "loginTest",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "32482388-2895-47fa-bf8c-9059e11636d9",
+    "name": "validCredential",
+    "commands": [{
+      "id": "c44a90e1-d97d-4ee8-ae28-76b5aab0aae8",
+      "comment": "",
+      "command": "store",
+      "target": "user3",
+      "targets": [],
+      "value": "username"
+    }, {
+      "id": "9301d92e-d01f-4b00-a31a-ecde79a3cf70",
+      "comment": "",
+      "command": "store",
+      "target": "pwd3",
+      "targets": [],
+      "value": "password"
+    }, {
+      "id": "5386aff3-97f0-400e-bfa1-c42bef7e03ed",
+      "comment": "",
+      "command": "run",
+      "target": "loginTest",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9fa9faa3-5dc7-4749-a659-d823e36eb695",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["88cee8bd-c15f-48e0-bebe-8374dd5c69a4"]
+  }],
+  "urls": ["https://eprint.com.hr/demo/login.php"],
+  "plugins": []
+}

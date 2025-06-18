@@ -1,0 +1,63 @@
+{
+  "id": "97995bb7-d06f-4206-a7ca-4199a7754258",
+  "version": "2.0",
+  "name": "verify not text",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "ffc053ce-7868-462e-b74f-6d2f9398510c",
+    "name": "verify not text",
+    "commands": [{
+      "id": "c0d25d71-e64a-4b76-a447-638916c4e84a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4c666909-9316-45ae-b80e-3c46dd487a48",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "id=but2",
+      "targets": [],
+      "value": "xyz"
+    }, {
+      "id": "142b57ac-e901-4168-8824-1e35353eb3ce",
+      "comment": "",
+      "command": "verifyNotText",
+      "target": "id=but2",
+      "targets": [],
+      "value": "Button2"
+    }, {
+      "id": "ac15de05-bae1-43bb-aa91-b10e0adbae5d",
+      "comment": "",
+      "command": "click",
+      "target": "id=radio1",
+      "targets": [
+        ["id=radio1", "id"],
+        ["name=gender", "name"],
+        ["css=#radio1", "css:finder"],
+        ["xpath=//input[@id='radio1']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML15']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d76aee2-a310-4b9d-b44d-a37861dd26ee",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3ce386e4-a22f-4fc3-b979-b89d9513c8a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["ffc053ce-7868-462e-b74f-6d2f9398510c"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

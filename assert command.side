@@ -1,0 +1,42 @@
+{
+  "id": "06c4d629-8e48-4885-a05a-0ab98aa48fc3",
+  "version": "2.0",
+  "name": "assert command",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "57ee6778-aadd-4e99-9e8e-064d2fb71edf",
+    "name": "assert command",
+    "commands": [{
+      "id": "08004363-9931-4fd4-873c-bcb427bd429f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a99a04bd-6677-4b5f-988d-40421aa2e668",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "55950a7b-4188-46e4-b5f7-ea8ad852e7c9",
+      "comment": "",
+      "command": "assert",
+      "target": "x",
+      "targets": [],
+      "value": "omayo (QAFox.com) "
+    }]
+  }],
+  "suites": [{
+    "id": "3b698d0b-67ac-4623-8188-793eaa161c84",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["57ee6778-aadd-4e99-9e8e-064d2fb71edf"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

@@ -1,0 +1,49 @@
+{
+  "id": "80b5ed66-a6a2-423d-857c-71e699b95fdd",
+  "version": "2.0",
+  "name": "assert prompt",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "053a57c1-a43a-445c-aa4b-2260d4671501",
+    "name": "assert prompt",
+    "commands": [{
+      "id": "93465dbd-9be7-4748-88fb-ed49cc88e648",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bde15f2-e285-4c1c-932b-8552af73679e",
+      "comment": "",
+      "command": "click",
+      "target": "id=prompt",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e75a214d-b2fe-4582-bcca-12d047094e55",
+      "comment": "",
+      "command": "assertPrompt",
+      "target": "What is your name?",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ad4ab071-b352-4e81-9490-1e10029b62ec",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "818e2861-ef12-420f-9868-66bceb1cf532",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["053a57c1-a43a-445c-aa4b-2260d4671501"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

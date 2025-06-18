@@ -1,0 +1,66 @@
+{
+  "id": "ca2d9ea7-65a1-4f4f-bf4a-3e9e834b1bdf",
+  "version": "2.0",
+  "name": "assert",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "12091a0f-055d-46c3-8970-05e2056efafd",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "2f0c0714-76d9-44c6-9f09-0a9f88180c2e",
+    "name": "assertTitle",
+    "commands": [{
+      "id": "5bc47fc8-51a0-4c82-8614-0a4d684f9697",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "50e9ed3c-5cfd-4887-8895-a44debb4fd7e",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "omayo (QAFox.com) ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a4f6e08f-f24a-44e2-ad11-87fb9f22a8d4",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "xyz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b523dfbb-b2af-47ae-a5d7-9e25b03514a5",
+      "comment": "",
+      "command": "click",
+      "target": "name=vehicle",
+      "targets": [
+        ["name=vehicle", "name"],
+        ["css=#HTML32 input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='vehicle']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML32']/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/aside/div/div[15]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ae36e38-44a0-4816-aaba-e2a920628b1b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "f7ae93c8-da54-4bf2-adcd-a97f5a05e6c8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["12091a0f-055d-46c3-8970-05e2056efafd"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

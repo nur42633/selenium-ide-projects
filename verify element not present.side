@@ -1,0 +1,49 @@
+{
+  "id": "aff9c624-ccd6-4b28-a97b-a04a53b369ac",
+  "version": "2.0",
+  "name": "verify element not present",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "35307618-2717-4a8c-ba70-338bba4b8c39",
+    "name": "verify element not present",
+    "commands": [{
+      "id": "25bcf722-83bb-405a-91f8-2b0a7c7b90cb",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6752faf2-bd45-4209-a634-41935a14cd52",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "id=xyz",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "884bfd84-0cc5-4bd9-ba09-1b92f3c68609",
+      "comment": "",
+      "command": "verifyElementNotPresent",
+      "target": "id=but2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ce5cd302-ee4f-4c9a-83b1-ec60ccb347ee",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a4a57322-a1e7-494d-95df-2a77ad138592",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["35307618-2717-4a8c-ba70-338bba4b8c39"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

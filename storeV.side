@@ -1,0 +1,136 @@
+{
+  "id": "e45bd4b7-716f-4d83-b5ad-2af9399a76b8",
+  "version": "2.0",
+  "name": "storeV",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "f7922ce6-0855-4d64-85c3-bf86297895a3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "dd1fd3d4-d8a3-408e-bb7e-46f80fd52bea",
+    "name": "store value",
+    "commands": [{
+      "id": "63088717-df31-4f86-9dad-6cfd897c58db",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8ce9a88a-1447-429f-b780-089c373cbefa",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "636d2ced-81e6-48b7-bf6a-19652792bb59",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5c853fb1-09cc-4954-a4b2-7219028bdefd",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8cf489db-6122-4b2d-9bb8-cf2f79b310fa",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sac-suggestion-row-2-cell-1 .s-heavy",
+      "targets": [
+        ["css=#sac-suggestion-row-2-cell-1 .s-heavy", "css:finder"],
+        ["xpath=//div[@id='sac-suggestion-row-2-cell-1']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'iphone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7ae261b7-794b-40c3-af9e-3ab3e86e8dd9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sg-col-inner > .a-text-normal",
+      "targets": [
+        ["css=.sg-col-inner > .a-text-normal", "css:finder"],
+        ["xpath=//div[@id='search']/span/div/h1/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'1-16 of over 50,000 results for \"iphone\"')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "57949240-5a35-4c81-a8ed-68aa837a795b",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.a-spacing-top-small > span:nth-child(1)",
+      "targets": [
+        ["css=.a-spacing-top-small > span:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='search']/span/div/h1/div/div/div/h2/span", "xpath:idRelative"],
+        ["xpath=//h2/span", "xpath:position"]
+      ],
+      "value": "varText"
+    }, {
+      "id": "328e6009-cafb-4eac-8cd8-9c7ca881a6d7",
+      "comment": "",
+      "command": "echo",
+      "target": "${varText}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3d8e298c-90ed-4a16-9117-5dbc1819fbf7",
+      "comment": "",
+      "command": "storeValue",
+      "target": "id=nav-search-submit-button",
+      "targets": [
+        ["id=nav-search-submit-button", "id"],
+        ["css=#nav-search-submit-button", "css:finder"],
+        ["xpath=//input[@id='nav-search-submit-button']", "xpath:attributes"],
+        ["xpath=//span[@id='nav-search-submit-text']/input", "xpath:idRelative"],
+        ["xpath=//span/input", "xpath:position"]
+      ],
+      "value": "varBtnVal"
+    }, {
+      "id": "c5b153f1-d8ee-4c2c-b954-76968eddef2d",
+      "comment": "",
+      "command": "echo",
+      "target": "${varBtnVal}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "77c913c2-5931-4940-a65b-d87b63b9f17a",
+      "comment": "",
+      "command": "store",
+      "target": "all store demands some money",
+      "targets": [],
+      "value": "varString"
+    }, {
+      "id": "4a3b2440-d7e1-47ea-848b-313da566de42",
+      "comment": "",
+      "command": "echo",
+      "target": "${varString}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3982d0f9-c40d-4d5f-89f6-d64a73b03f06",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7922ce6-0855-4d64-85c3-bf86297895a3"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

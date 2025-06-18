@@ -1,0 +1,49 @@
+{
+  "id": "7f9f22e6-37f2-4d65-bc43-5b2d160ac7f3",
+  "version": "2.0",
+  "name": "verify not checked",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "de437782-1498-4a11-9bd1-3f06ddaef7e4",
+    "name": "verify not checked",
+    "commands": [{
+      "id": "17e27449-993b-4775-892f-176ed07e8017",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02bb7539-3868-48ad-bb46-3d6e3c4329eb",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=checkbox2",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3512d7d0-1b0d-4189-a027-c171f5f7af7f",
+      "comment": "",
+      "command": "verifyNotChecked",
+      "target": "id=checkbox1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2bbac3f7-5c0c-4300-9995-5e66bd01e803",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a3d0376e-1af7-4431-894a-b865a53ef0b5",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["de437782-1498-4a11-9bd1-3f06ddaef7e4"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

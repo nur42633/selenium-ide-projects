@@ -1,0 +1,356 @@
+{
+  "id": "ff529887-472f-4c7e-aaff-54c3b3b7a655",
+  "version": "2.0",
+  "name": "assertion verify",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "7aa3690f-7035-478e-ac30-1ca9359e0ae9",
+    "name": "verify",
+    "commands": [{
+      "id": "e4aebc3b-134c-4e87-99f7-cc2541822855",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68169cd1-3aec-4be9-b442-3111f40b5bd2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x704",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a15b07c3-1489-4ec8-b98c-51f2c577d24f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "82a4f99e-3dd9-413d-b055-8781b2a7801e",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "763f86be-fc6f-43b3-8991-c42794178902",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "iphone"
+    }, {
+      "id": "0d54b62f-f387-434d-bb18-9aa8420b77bf",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "4db9dc11-4568-4250-ac48-6ec5382db202",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "53e7370b-2512-4899-bd48-b0406e1a3795",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "336940dd-615c-4e70-9b2c-cf2f76a39c33",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.nav-li:nth-child(5) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobiles')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f0df2a2-dd52-4acc-a6a1-26f4ad683577",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "48321dd9-c62c-413c-b451-411e67524197",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Audio",
+      "targets": [
+        ["linkText=Audio", "linkText"],
+        ["css=.nav-a:nth-child(5)", "css:finder"],
+        ["xpath=//div[@id='nav-subnav']/a[5]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b/?_encoding=UTF8&node=1389335031&ref_=sv_top_elec_mega_4')]", "xpath:href"],
+        ["xpath=//a[5]", "xpath:position"],
+        ["xpath=//a[contains(.,'Audio')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5589d106-7e53-4d8e-9672-ceec114a6efe",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#sobe_d_b_ms_6_2 .a-dynamic-image",
+      "targets": [
+        ["css=#sobe_d_b_ms_6_2 .a-dynamic-image", "css:finder"],
+        ["xpath=(//img[@alt='Shop now'])[2]", "xpath:img"],
+        ["xpath=//li[@id='sobe_d_b_ms_6_2']/a/div/div/img", "xpath:idRelative"],
+        ["xpath=//li[2]/a/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28322ac1-c585-4ac1-a8ed-fb34ebe25c74",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-logo-sprites",
+      "targets": [
+        ["id=nav-logo-sprites", "id"],
+        ["linkText=.in", "linkText"],
+        ["css=#nav-logo-sprites", "css:finder"],
+        ["xpath=//a[@id='nav-logo-sprites']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-logo']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/ref=nav_logo')]", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'.in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d1abe90-dcd1-425e-8c7e-1909d399a330",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d83a4867-9641-403f-ade5-007d064c9c72",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More - Amazon.in",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7f02b63f-0549-4cea-b647-9fae381933b5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sell",
+      "targets": [
+        ["linkText=Sell", "linkText"],
+        ["css=.nav-li:nth-child(3) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Sell')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3')]", "xpath:href"],
+        ["xpath=//li[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3730b233-307c-426d-97d8-13b5b8e58696",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,641.5999755859375)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6bf5302c-4ba9-4b23-9f50-4dba35b99fb4",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Amazon.in: : All Categories",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f11da8fc-7614-4f98-b76c-3dd4c764b4ee",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8270aeae-a8ab-46a4-8fcf-2975e417252a",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "sasmu"
+    }, {
+      "id": "9b39a784-ae46-4fa9-967b-8bb357845f5c",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "6d10706c-f783-4a9b-9f88-b237ed5cdf09",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "samsung s24"
+    }, {
+      "id": "44e6fa2f-31d4-4bbd-aaab-fd1c462e30a3",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "c3c9359f-a1bc-404c-b999-a29272e0d413",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "b2b47d97-0af5-431d-8741-f98e8efd8808",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "96823975-ec0f-45b1-953b-ef3a2ac4bb86",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_DOWN}"
+    }, {
+      "id": "26bb991b-e311-4aa2-a3ff-f1aadbd534bd",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "e160fe1b-ae8d-43c3-8b39-240b03e5f6e9",
+      "comment": "",
+      "command": "click",
+      "target": "id=a-autoid-1-announce",
+      "targets": [
+        ["id=a-autoid-1-announce", "id"],
+        ["name=submit.addToCart", "name"],
+        ["css=#a-autoid-1-announce", "css:finder"],
+        ["xpath=//button[@id='a-autoid-1-announce']", "xpath:attributes"],
+        ["xpath=//span[@id='a-autoid-1']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "516bc650-e448-4dbe-85b3-125ed88b8b82",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.a-declarative:nth-child(3) > span:nth-child(2)",
+      "targets": [
+        ["css=.a-declarative:nth-child(3) > span:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='0d056049-6590-4900-8422-b063b4360dfd']/div/div/div/div/span/div/div/div/div[2]/div/div/div[3]/div/div/div[4]/div/div/div[2]/div/form/div/div[2]/div[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/span[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "755643b3-d527-4ada-a2bc-381a1778e8ab",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

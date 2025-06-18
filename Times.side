@@ -1,0 +1,49 @@
+{
+  "id": "88c7c210-5ddd-4406-be6d-e21324d7fc18",
+  "version": "2.0",
+  "name": "Times",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "948a4b3b-475a-4e0e-b259-34f90a8d4efd",
+    "name": "times",
+    "commands": [{
+      "id": "df528618-a851-46ae-9745-006070a4f8c5",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6fe7c35f-d4f0-4d0d-97da-e96bdd8f4270",
+      "comment": "",
+      "command": "times",
+      "target": "5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "88beaed0-b183-4556-96b7-58b8fbaafd73",
+      "comment": "",
+      "command": "echo",
+      "target": "My Name Is Nur Mohamamd",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6e218757-f924-4473-aad4-432bc0a9d8b5",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b1668dc-8b25-4095-a6f7-366f2f035ce1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["948a4b3b-475a-4e0e-b259-34f90a8d4efd"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

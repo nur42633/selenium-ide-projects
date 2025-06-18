@@ -1,0 +1,35 @@
+{
+  "id": "dec26e95-6b55-4749-a6f1-d3491942458c",
+  "version": "2.0",
+  "name": "submit",
+  "url": "https://tutorialsninja.com",
+  "tests": [{
+    "id": "82584429-339d-4583-a88b-2ff33dd418d7",
+    "name": "submit",
+    "commands": [{
+      "id": "8c28becb-0ee5-46f4-964f-999daf028663",
+      "comment": "",
+      "command": "open",
+      "target": "/demo/index.php?route=account/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "23fd52f1-f908-4200-9814-8643cd578734",
+      "comment": "",
+      "command": "submit",
+      "target": "css=form[action$='login']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "b2b69638-8ae4-4e9b-ac6b-d6f4cb4bbe0c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82584429-339d-4583-a88b-2ff33dd418d7"]
+  }],
+  "urls": ["https://tutorialsninja.com/demo/index.php?route=account/login", "https://tutorialsninja.com/"],
+  "plugins": []
+}

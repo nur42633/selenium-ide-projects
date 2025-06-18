@@ -1,0 +1,49 @@
+{
+  "id": "f3431724-3304-4b47-89f1-6a3231669b04",
+  "version": "2.0",
+  "name": "pause",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "d961d010-070b-472d-96fb-14dbeff4c6c5",
+    "name": "pause",
+    "commands": [{
+      "id": "2276c6d0-6b16-4b87-80aa-f1573a1fdd3e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2c85ca2c-de6a-4e81-9b8f-f930ecfe4ebd",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [],
+      "value": "nur mohammad"
+    }, {
+      "id": "1908da64-e87f-436b-98a5-30e1f6124a0d",
+      "comment": "",
+      "command": "pause",
+      "target": "5000",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "75d1f745-2119-4785-96e9-d290a52b761a",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//input[@class='gsc-search-button']",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c56d1971-3eb0-4f87-b179-de795263386c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["d961d010-070b-472d-96fb-14dbeff4c6c5"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

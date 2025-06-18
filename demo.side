@@ -1,0 +1,112 @@
+{
+  "id": "e21a2094-5bb5-4018-97a3-a7256bc7d57c",
+  "version": "2.0",
+  "name": "demo",
+  "url": "https://omayo.blogspot.com",
+  "tests": [{
+    "id": "a8204048-4f1b-4a67-aa32-fdd48a9f9bd8",
+    "name": "demotest",
+    "commands": [{
+      "id": "ad8ed395-cdc6-47f0-bbd1-87d06dcd810a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "752c63f3-5d96-4531-93be-c3fbdadaa9f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "df3f2891-6ef5-4d49-80aa-19fe053660c6",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,105.5999984741211)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4fbde5d3-15cd-45d3-98ed-6e23b03c0b24",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ddecdbb8-0e6f-4335-b26b-fc2408b8ee0c",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f420d186-7403-4377-b5f9-fad5b1eae5d0",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "qafo.com"
+    }, {
+      "id": "de894bf1-1b15-4981-a7bc-7b45b78d3080",
+      "comment": "",
+      "command": "click",
+      "target": "css=.gsc-search-button:nth-child(1)",
+      "targets": [
+        ["css=.gsc-search-button:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a8dd7311-4e3f-4d5b-b0df-c056a17f785c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.status-msg-body > b",
+      "targets": [
+        ["css=.status-msg-body > b", "css:finder"],
+        ["xpath=//div[@id='Blog1']/div/div/div/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,'qafo.com')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2b940ef7-d003-4603-a669-cacf7a8d139a",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "omayo (QAFox.com): Search results for qafo.com",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "af248e1a-e1e5-4244-9e24-fd7a3b55246b",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["a8204048-4f1b-4a67-aa32-fdd48a9f9bd8"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

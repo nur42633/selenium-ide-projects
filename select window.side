@@ -1,0 +1,96 @@
+{
+  "id": "e573e851-6c56-4880-ad10-228f69aafeab",
+  "version": "2.0",
+  "name": "select window",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "079fecaf-c846-48c8-8c35-96b50bec6d8c",
+    "name": "select window",
+    "commands": [{
+      "id": "ba00c470-bd6e-4770-b45b-387a0bc1ac93",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "24304e36-d7ba-40ca-be43-82d545c99be7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Open a popup window",
+      "targets": [
+        ["linkText=Open a popup window", "linkText"],
+        ["css=p:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Open a popup window')]", "xpath:link"],
+        ["xpath=//div[@id='HTML37']/div/p/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, \"JavaScript:newPopup('https://the-internet.herokuapp.com/windows/new');\")]", "xpath:href"],
+        ["xpath=//div[17]/div/p/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Open a popup window')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2477",
+      "windowTimeout": 2000
+    }, {
+      "id": "c5c74999-6d2f-40d3-86d1-aa66598b0f0a",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cea770b6-3e9f-44f5-9e9d-ad596fdb0cb7",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2477}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "611b73a3-b0a4-4c4c-be4f-a8fc5dd8c18e",
+      "comment": "",
+      "command": "click",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'New Window')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c5442929-374c-4abc-af26-ad3d8c898b6c",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=h3",
+      "targets": [
+        ["css=h3", "css:finder"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'New Window')]", "xpath:innerText"]
+      ],
+      "value": "New Window"
+    }, {
+      "id": "058a8e64-79eb-4fde-9e9a-b3849f2bde37",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5aca5ab0-8911-4a19-88c2-e74cc651a145",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d1f0b123-81cc-42f2-9a1e-d8dda8caff59",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["079fecaf-c846-48c8-8c35-96b50bec6d8c"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

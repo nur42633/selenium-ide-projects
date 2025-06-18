@@ -1,0 +1,137 @@
+{
+  "id": "b85fa51b-1cb5-4a2e-856c-b667cc50ebd0",
+  "version": "2.0",
+  "name": "else commad",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "896ea141-cce1-4ebf-9185-fbc69f8dca2f",
+    "name": "else command",
+    "commands": [{
+      "id": "8cd59594-e802-4be4-b502-f7e22a63f622",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bdaeb9d-828f-4061-aea2-f3a6fc525ebc",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "(QAFox.com)",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "435c374b-847e-4f23-9b50-6d9a333fa77c",
+      "comment": "",
+      "command": "if",
+      "target": "${x}===\"omayo (QAFox.com)\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4ad00531-f174-4c2a-a2ee-f5484553ad11",
+      "comment": "",
+      "command": "echo",
+      "target": "The Title is correct",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4e9280bc-9d2b-4a30-836f-80cd5ca86537",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42a1a58d-9c09-4fef-af5a-4114e2a6871d",
+      "comment": "",
+      "command": "echo",
+      "target": "The Title is wrong",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "979762dd-fb56-4f71-a88c-18e03e0f7e22",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "1c34a620-4639-4447-80d2-54eba48ffa14",
+    "name": "else-if",
+    "commands": [{
+      "id": "74ce02c3-663d-4be6-8bd4-d335b999d04b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2a41e533-8497-482b-8fd6-bbedf684a9fd",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "Nur Mohammad",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "9253418b-273b-43f1-96f0-587a8d9cdc4f",
+      "comment": "",
+      "command": "if",
+      "target": "${x}===\"omayo (QAFox.com)\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "db35ae06-706a-4c74-9d0f-8a04d7d89947",
+      "comment": "",
+      "command": "echo",
+      "target": "this is the correct tittle",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c874582d-120b-454c-addb-cff5b69861e5",
+      "comment": "",
+      "command": "elseIf",
+      "target": "${x}===\"Nur Mohammad\"",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "04f9fad6-081b-469f-bc39-40da2a175a81",
+      "comment": "",
+      "command": "echo",
+      "target": "This is my name",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a499e38f-b6b1-44ec-af73-7f76064b3106",
+      "comment": "",
+      "command": "else",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "750b5e7f-42e0-4fa6-8d5a-97894f85c74e",
+      "comment": "",
+      "command": "echo",
+      "target": "wrong",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bee93ee3-0088-4f27-8c03-cc66de159f39",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "25efa09a-cb04-4894-a71e-dcaae1b6e933",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["896ea141-cce1-4ebf-9185-fbc69f8dca2f"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

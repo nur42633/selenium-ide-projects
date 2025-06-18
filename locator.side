@@ -1,0 +1,185 @@
+{
+  "id": "29640022-0327-4f22-ba69-fdaa0ff2514f",
+  "version": "2.0",
+  "name": "locator",
+  "url": "https://omayo.blogspot.com",
+  "tests": [{
+    "id": "771211b7-80f6-4838-bb91-f0daa8cdd3df",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "3948c15b-cbfa-4271-86ba-e9884d138140",
+    "name": "xpath",
+    "commands": [{
+      "id": "e3e1fbd4-22ad-4a91-8f32-a5e9f905f033",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fac78ddd-3883-44dd-8695-5da7b93ad096",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a2c0b684-643e-4163-82ef-567098091bec",
+      "comment": "",
+      "command": "click",
+      "target": "id=but2",
+      "targets": [
+        ["id=but2", "id"],
+        ["css=#but2", "css:finder"],
+        ["xpath=//button[@id='but2']", "xpath:attributes"],
+        ["xpath=//div[@id='HTML7']/div/button", "xpath:idRelative"],
+        ["xpath=//div/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Button2')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f585549d-68a6-498a-b048-e12f3c850f52",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//*[@id=\"but2\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "adc8c4d9-e971-46c0-b228-6ccad8386f83",
+      "comment": "",
+      "command": "click",
+      "target": "css=.column-center-inner",
+      "targets": [
+        ["css=.column-center-inner", "css:finder"],
+        ["xpath=//div/div[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "03ca058c-a65f-4d38-9e94-a250a9991765",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5b1835d-a03b-488b-9f56-70ab980044d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbar",
+      "targets": [
+        ["id=navbar", "id"],
+        ["css=#navbar", "css:finder"],
+        ["xpath=//div[@id='navbar']", "xpath:attributes"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "226efd4b-4770-412f-bef4-f185486a40f2",
+      "comment": "",
+      "command": "click",
+      "target": "id=navbar",
+      "targets": [
+        ["id=navbar", "id"],
+        ["css=#navbar", "css:finder"],
+        ["xpath=//div[@id='navbar']", "xpath:attributes"],
+        ["xpath=//div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d21ded65-45e4-4e00-8a08-9ebf8fb8e61a",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf7a656-81a3-4789-9334-6346715237ee",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=1",
+      "targets": [
+        ["index=1"]
+      ],
+      "value": ""
+    }, {
+      "id": "1047913f-b746-4ca4-9c1a-3b7b7ab6016a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.titlewrapper",
+      "targets": [
+        ["css=.titlewrapper", "css:finder"],
+        ["xpath=//div[@id='header-inner']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30982223-7285-4c24-acf1-3a93d6bcab92",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "9147ed90-079e-47b2-ab08-16a8a38b30ee",
+      "comment": "",
+      "command": "click",
+      "target": "css=#HTML30 > .widget-content",
+      "targets": [
+        ["css=#HTML30 > .widget-content", "css:finder"],
+        ["xpath=//div[@id='HTML30']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "daf941c1-987a-43d3-ada9-e052ba366250",
+      "comment": "",
+      "command": "click",
+      "target": "id=main",
+      "targets": [
+        ["id=main", "id"],
+        ["css=#main", "css:finder"],
+        ["xpath=//div[@id='main']", "xpath:attributes"],
+        ["xpath=//div/div[4]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5603af77-7ffa-4b33-a467-51f012e3f004",
+      "comment": "",
+      "command": "click",
+      "target": "//*[@id=\"but2\"]",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e6cd7958-fd98-4de5-9d20-314538ab7167",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=multiselect1",
+      "targets": [],
+      "value": "Volvo"
+    }, {
+      "id": "178f251d-e57d-46e0-92db-5658748ceb95",
+      "comment": "",
+      "command": "addSelection",
+      "target": "id=multiselect1",
+      "targets": [],
+      "value": "Audi"
+    }]
+  }],
+  "suites": [{
+    "id": "e1ee59c9-d8af-4ff4-acfe-b9f27aba5df3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["771211b7-80f6-4838-bb91-f0daa8cdd3df"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

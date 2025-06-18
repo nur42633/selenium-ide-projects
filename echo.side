@@ -1,0 +1,75 @@
+{
+  "id": "0424e425-6c5a-4f7a-a6bc-0a4f3a26eafd",
+  "version": "2.0",
+  "name": "echo",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "e7204002-4b64-453b-bde2-d314f8c09d4d",
+    "name": "echo",
+    "commands": [{
+      "id": "af146ad1-e7b6-40a0-9911-73fa958eef4b",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "91a874a9-51fd-4218-afbc-61001ea451a6",
+      "comment": "",
+      "command": "echo",
+      "target": "application is open",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32b18109-1784-4a89-b27f-c4bf4fb2e688",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "qafox.com"
+    }, {
+      "id": "4affea10-9b7e-4dbd-baa1-f328d3a7a25b",
+      "comment": "",
+      "command": "echo",
+      "target": "qafox is typed in search bar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f27057fe-b2de-4bb1-8e72-06e3041df7d4",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "567e7841-93fb-4f7a-944a-d28f7ce1d05d",
+      "comment": "",
+      "command": "echo",
+      "target": "application test is done",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "9d06000e-0087-4014-aa00-4ee216a08d51",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e7204002-4b64-453b-bde2-d314f8c09d4d"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

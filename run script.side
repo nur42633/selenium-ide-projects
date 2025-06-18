@@ -1,0 +1,35 @@
+{
+  "id": "fc342426-0216-410c-8217-fa245cc5bdfa",
+  "version": "2.0",
+  "name": "run script",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "e6cb37e4-79cf-499e-823e-fb2a910eb253",
+    "name": "run script",
+    "commands": [{
+      "id": "56bf4747-f4dd-4c14-8728-91d8806f875c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cbfbf6d4-0ce8-4baa-8749-fc80370405aa",
+      "comment": "",
+      "command": "runScript",
+      "target": "alert(\"QAFox.com\")",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c8ea1141-68a6-48b7-b5c3-25793b9b36a7",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e6cb37e4-79cf-499e-823e-fb2a910eb253"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

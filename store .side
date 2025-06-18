@@ -1,0 +1,86 @@
+{
+  "id": "8006cab1-a587-43e8-8c43-6d9addbf3b28",
+  "version": "2.0",
+  "name": "store ",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "5aa433d3-80d9-4017-9645-cb7e4369d7a5",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "a4a0b222-a292-4702-8c0f-44c53c7c4a2c",
+    "name": "store cart",
+    "commands": [{
+      "id": "5ee66a47-f20a-4016-92d4-a9c728847c8c",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "96120fcf-40c4-446d-ab7e-eaed6d3c7e79",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x701",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c2d5b69a-12b6-44f5-9ed2-06bfbca1cb00",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9b467db7-0329-49bc-bebe-1daa0f975859",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "625c828a-4919-4d94-8f8a-86edcdf85e06",
+      "comment": "",
+      "command": "click",
+      "target": "css=#sac-suggestion-row-2-cell-1 .s-heavy",
+      "targets": [
+        ["css=#sac-suggestion-row-2-cell-1 .s-heavy", "css:finder"],
+        ["xpath=//div[@id='sac-suggestion-row-2-cell-1']/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'iphone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bce8a16c-4f23-4745-9de6-a856e368321c",
+      "comment": "",
+      "command": "storeTitle",
+      "target": "Amazon.in : iphone",
+      "targets": [],
+      "value": "varTitle"
+    }, {
+      "id": "021d7975-f537-426f-822f-0b2e6acb9ce3",
+      "comment": "",
+      "command": "echo",
+      "target": "${varTitle}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e410d064-388d-497a-9eda-98a513fe5b12",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5aa433d3-80d9-4017-9645-cb7e4369d7a5"]
+  }],
+  "urls": [],
+  "plugins": []
+}

@@ -1,0 +1,154 @@
+{
+  "id": "bdc8fd04-6d69-4fde-a47c-e0633749f0d1",
+  "version": "2.0",
+  "name": "test",
+  "url": "https://www.youtube.com",
+  "tests": [{
+    "id": "e0ec306a-a240-4588-a32f-05dd8aac36d6",
+    "name": "youtube",
+    "commands": [{
+      "id": "bcf81b7d-6de3-4af6-99d3-509ebe856f9c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "99c20436-675c-40f3-8f13-289e513d13e9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed360803-a47d-4d1f-a467-c54324b6a9ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.yt-thumbnail-view-model__image",
+      "targets": [
+        ["css=.yt-thumbnail-view-model__image", "css:finder"],
+        ["xpath=//div[@id='content']/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/div", "xpath:idRelative"],
+        ["xpath=//yt-thumbnail-view-model/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e9d773c-e3d1-4b31-989f-db850bbed0a3",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.yt-thumbnail-view-model__image",
+      "targets": [
+        ["css=.yt-thumbnail-view-model__image", "css:finder"],
+        ["xpath=//div[@id='content']/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/div", "xpath:idRelative"],
+        ["xpath=//yt-thumbnail-view-model/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e33b1c-81b2-4c81-b944-6d35e1770563",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytThumbnailHoverOverlayViewModelScrim",
+      "targets": [
+        ["css=.ytThumbnailHoverOverlayViewModelScrim", "css:finder"],
+        ["xpath=//div[@id='content']/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/thumbnail-hover-overlay-view-model/div", "xpath:idRelative"],
+        ["xpath=//thumbnail-hover-overlay-view-model/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "101eb94f-47fd-4960-9a5c-c0bb87faf0f4",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytThumbnailHoverOverlayViewModelScrim",
+      "targets": [
+        ["css=.ytThumbnailHoverOverlayViewModelScrim", "css:finder"],
+        ["xpath=//div[@id='content']/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/thumbnail-hover-overlay-view-model/div", "xpath:idRelative"],
+        ["xpath=//thumbnail-hover-overlay-view-model/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "211b506b-8b1b-4d8b-bc58-55e76eacc0f1",
+      "comment": "",
+      "command": "click",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=.ytSearchboxComponentInput", "css:finder"],
+        ["xpath=//input[@name='search_query']", "xpath:attributes"],
+        ["xpath=//div[@id='center']/yt-searchbox/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d808f313-d349-4e5a-876a-b46ff3c41c46",
+      "comment": "",
+      "command": "type",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=.ytSearchboxComponentInput", "css:finder"],
+        ["xpath=//input[@name='search_query']", "xpath:attributes"],
+        ["xpath=//div[@id='center']/yt-searchbox/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "qafox.com"
+    }, {
+      "id": "59cb4257-ceac-41dc-b0f2-140a6948df6b",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=search_query",
+      "targets": [
+        ["name=search_query", "name"],
+        ["css=.ytSearchboxComponentInput", "css:finder"],
+        ["xpath=//input[@name='search_query']", "xpath:attributes"],
+        ["xpath=//div[@id='center']/yt-searchbox/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "137eee2b-dd98-4f61-bfd3-a1ac5cee3abf",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-video-renderer > #thumbnail .yt-core-image--loaded",
+      "targets": [
+        ["css=.ytd-video-renderer > #thumbnail .yt-core-image--loaded", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/iIP-rZf5yG0/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgnID0ofzAP&rs=AOn4CLC6tTb8Pbg4kbgCRUvBtqtd7vMRtg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[16]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4d7ff081-de35-4e3a-875b-879c40d2a818",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.ytd-video-renderer > #thumbnail .yt-core-image--loaded",
+      "targets": [
+        ["css=.ytd-video-renderer > #thumbnail .yt-core-image--loaded", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/iIP-rZf5yG0/hq720_2.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGABwAcABBvABAfgBtgiAAoAPigIMCAAQARgnID0ofzAP&rs=AOn4CLC6tTb8Pbg4kbgCRUvBtqtd7vMRtg')]", "xpath:img"],
+        ["xpath=(//a[@id='thumbnail']/yt-image/img)[16]", "xpath:idRelative"],
+        ["xpath=//ytd-video-renderer/div/ytd-thumbnail/a/yt-image/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ebe9dcb6-b7bf-4859-86bb-0fbe4db46d46",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.ytd-item-section-renderer:nth-child(1) > .yt-lockup-view-model-wiz:nth-child(1) .yt-core-image:nth-child(1)",
+      "targets": [
+        ["css=.ytd-item-section-renderer:nth-child(1) > .yt-lockup-view-model-wiz:nth-child(1) .yt-core-image:nth-child(1)", "css:finder"],
+        ["xpath=//img[contains(@src,'https://i.ytimg.com/vi/pVKT4N-Cgb8/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAL-myHVk1Ylr583vCfyq9dcanb5A')]", "xpath:img"],
+        ["xpath=//div[@id='contents']/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/div/img", "xpath:idRelative"],
+        ["xpath=//div[3]/yt-lockup-view-model/div/a/yt-collection-thumbnail-view-model/yt-collections-stack/div/div[3]/yt-thumbnail-view-model/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "03e6a3f8-f5bc-41c3-b5d8-e9f7d466270d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e0ec306a-a240-4588-a32f-05dd8aac36d6"]
+  }],
+  "urls": ["https://www.youtube.com/"],
+  "plugins": []
+}

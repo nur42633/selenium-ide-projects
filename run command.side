@@ -1,0 +1,79 @@
+{
+  "id": "6b23ee44-32b3-4329-8e31-5ba2842ff889",
+  "version": "2.0",
+  "name": "run command",
+  "url": "https://tutorialsninja.com/",
+  "tests": [{
+    "id": "29755212-2f31-4130-8cfb-0513170def7d",
+    "name": "login",
+    "commands": [{
+      "id": "25567a3d-49b3-4a0d-8ae8-45350e2c4c3f",
+      "comment": "",
+      "command": "open",
+      "target": "/demo/index.php?route=account/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dab05784-2a03-465d-879e-e65824d2bbb1",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-email",
+      "targets": [],
+      "value": "nurmohammadaiub42629@gmail.com"
+    }, {
+      "id": "49d2f0cc-f747-479c-99dd-e91b740ec5fb",
+      "comment": "",
+      "command": "type",
+      "target": "id=input-password",
+      "targets": [],
+      "value": "123nur"
+    }, {
+      "id": "9ba54e8f-c84b-41d7-8eac-c1fff7ecb1d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=input[value='Login']",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "9e526511-b4f6-4628-a2b9-87a1534cadb3",
+    "name": "searchTest",
+    "commands": [{
+      "id": "07ec0fe2-53be-42f5-bc00-4fe9bd609e77",
+      "comment": "",
+      "command": "run",
+      "target": "login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bd1ebb8f-67f3-4ed7-8054-1257af1370eb",
+      "comment": "",
+      "command": "type",
+      "target": "name=search",
+      "targets": [],
+      "value": "iphone"
+    }, {
+      "id": "aeda73bc-f846-417a-8586-e416e5894013",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn-default",
+      "targets": [
+        ["css=.btn-default", "css:finder"],
+        ["xpath=(//button[@type='button'])[4]", "xpath:attributes"],
+        ["xpath=//div[@id='search']/span/button", "xpath:idRelative"],
+        ["xpath=//span/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "250f9b20-50dd-41bd-a8da-7076b159a071",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["29755212-2f31-4130-8cfb-0513170def7d"]
+  }],
+  "urls": ["https://tutorialsninja.com/"],
+  "plugins": []
+}

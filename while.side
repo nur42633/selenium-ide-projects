@@ -1,0 +1,63 @@
+{
+  "id": "fd538b27-a6c1-4359-af55-9f931551e008",
+  "version": "2.0",
+  "name": "while",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "cdb72b06-1ea4-48ca-9eb5-a5f2b337c2b6",
+    "name": "while",
+    "commands": [{
+      "id": "3be3d4d6-b812-4af3-bebd-0cb8f33a626c",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c885573-596e-427f-bcc7-b966bcc161ae",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return 1",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "dc3ba4ff-bcde-457c-afe6-db27b1ba959f",
+      "comment": "",
+      "command": "while",
+      "target": "${x}<5",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "244e0e19-abf7-4137-9ff3-3bbc912cbf8e",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3e50b42b-518f-423e-a3b9-7e7abfccf644",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return ${x}+1",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "7b1089fa-3f26-43e0-a34e-d6af225f0ac5",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3925d1c2-2690-47f2-a810-7eb124e0d5ce",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cdb72b06-1ea4-48ca-9eb5-a5f2b337c2b6"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

@@ -1,0 +1,56 @@
+{
+  "id": "54edcdcb-d538-4053-9ddc-a2f3574ec539",
+  "version": "2.0",
+  "name": "mouse down, mouse move at, mouse up",
+  "url": "https://jqueryui.com/",
+  "tests": [{
+    "id": "61bce6e7-e769-4fa9-b10b-7b4860c7ce08",
+    "name": "mouse down, mouse move at,mouse up",
+    "commands": [{
+      "id": "a6134eeb-016d-41e5-aa07-40f4ec8c6743",
+      "comment": "",
+      "command": "open",
+      "target": "/droppable/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1a2ebc5d-97f0-46ef-97e7-809fa9b4da18",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49d11c66-208d-47c8-b1de-e8c15b80705d",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=draggable",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b8904c66-e34a-4a0d-a9d9-14830eab67cd",
+      "comment": "",
+      "command": "mouseMoveAt",
+      "target": "id=droppable",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ac244e20-e481-49e8-baa1-3d75e57689bd",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=droppable",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e777a4c4-88f1-4e41-86ad-d7abfb1e3a9c",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["61bce6e7-e769-4fa9-b10b-7b4860c7ce08"]
+  }],
+  "urls": ["https://jqueryui.com/"],
+  "plugins": []
+}

@@ -1,0 +1,68 @@
+{
+  "id": "914382da-3c56-469f-813b-6ba5670d7fde",
+  "version": "2.0",
+  "name": "assertion",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "82b853cc-7181-4e86-ae11-792a0c4ba2c3",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "04cf1577-e86f-41c5-9162-e8bc4e46ec77",
+    "name": "assert",
+    "commands": [{
+      "id": "18b826a5-cd9a-4460-8558-57f664af6ea4",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "02513bad-a54f-428a-ba43-502bfb72cc7e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x703",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00b26eff-5447-49b9-a824-34bad778855f",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "98a499af-616d-46be-9aed-e62965e90b63",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Online Shopping site in India: Shop Online for Mobiles, Books, Watches, Shoes and More ",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "76d6bdb1-8724-44e3-84b2-61d4515fc452",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Mobiles",
+      "targets": [
+        ["linkText=Mobiles", "linkText"],
+        ["css=.nav-li:nth-child(5) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Mobiles')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[5]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles')]", "xpath:href"],
+        ["xpath=//li[5]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Mobiles')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "5f8bede9-8431-42c8-a76e-a2f7e908d498",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["82b853cc-7181-4e86-ae11-792a0c4ba2c3"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}

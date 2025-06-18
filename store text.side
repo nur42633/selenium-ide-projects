@@ -1,0 +1,42 @@
+{
+  "id": "9b98f84a-812d-461d-9b8e-19a74f5b9e59",
+  "version": "2.0",
+  "name": "store text",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "947ad7db-17fd-47ac-bb4e-e3bf07634892",
+    "name": "store text",
+    "commands": [{
+      "id": "3336ff75-7e2b-49b2-96bd-ed93f44a2a7e",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "780ba8f1-3560-4c0d-b768-76297506ddf0",
+      "comment": "",
+      "command": "storeText",
+      "target": "id=pah",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "0ba76e98-fe68-41e0-beb5-07334a4e4d70",
+      "comment": "",
+      "command": "echo",
+      "target": "${x}",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a0c60463-2296-47b6-b7c1-63930107f193",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["947ad7db-17fd-47ac-bb4e-e3bf07634892"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

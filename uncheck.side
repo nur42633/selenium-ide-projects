@@ -1,0 +1,71 @@
+{
+  "id": "294a678f-1f48-4c4e-a5b2-fb86887c4d5f",
+  "version": "2.0",
+  "name": "uncheck",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "0c1f3d12-1f01-4c92-99fc-238aff5e5c6d",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "84a153e9-ca5f-4c3a-95ab-230df5facb06",
+    "name": "uncheck",
+    "commands": [{
+      "id": "382b8e75-4658-4f42-a7ce-e55fe75cfc36",
+      "comment": "",
+      "command": "open",
+      "target": "https://omayo.blogspot.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ba5ce2ea-7b95-4649-95a3-81d0f51a8ecd",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "caa03eaa-4591-4292-9cc5-05b26c2d992c",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gsc-input > .gsc-input", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td/input", "xpath:idRelative"],
+        ["xpath=//td/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "199f0d64-c5c0-4678-942e-a8e30c7aec25",
+      "comment": "",
+      "command": "uncheck",
+      "target": "css=#HTML32 input:nth-child(2)",
+      "targets": [
+        ["css=#HTML32 input:nth-child(2)", "css:finder"],
+        ["xpath=(//input[@name='vehicle'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='HTML32']/div/input[2]", "xpath:idRelative"],
+        ["xpath=//div[15]/div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "445dd246-cb4b-4c86-b2ee-0fa78188ba36",
+      "comment": "",
+      "command": "uncheck",
+      "target": "id=checkbox1",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c49a82a7-91b4-4667-ab60-a1815037ac0d",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0c1f3d12-1f01-4c92-99fc-238aff5e5c6d"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

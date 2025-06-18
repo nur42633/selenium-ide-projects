@@ -1,0 +1,87 @@
+{
+  "id": "43cd0596-0bf2-441b-b3a9-a1d3b275496a",
+  "version": "2.0",
+  "name": "assertionTest",
+  "url": "https://the-internet.herokuapp.com/dynamic_loading/1",
+  "tests": [{
+    "id": "259cd457-b83c-4905-8c6f-893bdb6b137c",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "c1fa15f8-f0d8-450d-ac76-43b1b4df00ea",
+    "name": "wait-for",
+    "commands": [{
+      "id": "b14238fb-8d46-4adb-9db3-258299ea965f",
+      "comment": "",
+      "command": "open",
+      "target": "https://the-internet.herokuapp.com/dynamic_loading/1",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "83435dd7-109f-4e63-9bf3-a0f224d9317d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1160x707",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a6fe3b8-04a9-4061-93b8-eb0d01308fb9",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//div[@id='start']/button", "xpath:idRelative"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Start')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41d51f6e-ab10-44d8-b40c-0d179ac56943",
+      "comment": "",
+      "command": "waitForElementNotVisible",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": "10000"
+    }, {
+      "id": "65219f59-4e55-44b0-b908-0a4849a06ff2",
+      "comment": "",
+      "command": "click",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e10b3e2-46a8-4713-a750-b5a4f27931a6",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=h4:nth-child(1)",
+      "targets": [
+        ["css=h4:nth-child(1)", "css:finder"],
+        ["xpath=//div[@id='finish']/h4", "xpath:idRelative"],
+        ["xpath=//div[3]/h4", "xpath:position"],
+        ["xpath=//h4[contains(.,'Hello World!')]", "xpath:innerText"]
+      ],
+      "value": "Hello World!"
+    }]
+  }],
+  "suites": [{
+    "id": "3bbf33fb-8fee-4286-b6c8-a737149a2066",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["259cd457-b83c-4905-8c6f-893bdb6b137c"]
+  }],
+  "urls": ["https://the-internet.herokuapp.com/dynamic_loading/1"],
+  "plugins": []
+}

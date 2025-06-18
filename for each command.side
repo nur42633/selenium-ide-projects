@@ -1,0 +1,56 @@
+{
+  "id": "d4c83223-655f-409b-91b2-ea054b991046",
+  "version": "2.0",
+  "name": "for each command",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "163a1294-6ad6-4a4e-972c-96dc37c8eb6c",
+    "name": "for each",
+    "commands": [{
+      "id": "aaec3bba-c168-4975-8e9e-302c45126e2d",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcb8430-9cfd-4a3f-aff7-25afb5996d94",
+      "comment": "",
+      "command": "executeScript",
+      "target": "return [\"Audi\",\"Volvo\",\"BMW\"]",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "b2dc3baa-ce53-4606-8108-eda77591bae2",
+      "comment": "",
+      "command": "forEach",
+      "target": "x",
+      "targets": [],
+      "value": "temp"
+    }, {
+      "id": "2f5a8a68-46a2-411b-bb1d-cee0580bb9bf",
+      "comment": "",
+      "command": "echo",
+      "target": "${temp}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eecc24ae-a8e8-46b5-bcfd-b7b16fc13fcd",
+      "comment": "",
+      "command": "end",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e9850d46-bd93-447f-8d3a-b5119d9ec3a9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["163a1294-6ad6-4a4e-972c-96dc37c8eb6c"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

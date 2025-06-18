@@ -1,0 +1,54 @@
+{
+  "id": "57ba2bce-d481-4b2c-a83a-9e82942c0bb4",
+  "version": "2.0",
+  "name": "assert value commad",
+  "url": "https://omayo.blogspot.com/",
+  "tests": [{
+    "id": "cd8ecefb-7ca4-41d9-9cbd-8cbd84c9a1fd",
+    "name": "assert value",
+    "commands": [{
+      "id": "6f9d4c72-b794-4c57-b97a-80d428e8e1fd",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "558eef33-5cc1-4287-b8f0-f4fe5cbda963",
+      "comment": "",
+      "command": "assertValue",
+      "target": "xpath=//input[@class='gsc-search-button']",
+      "targets": [],
+      "value": "Sear"
+    }, {
+      "id": "35b101e1-3199-4692-93bf-5455a1be7173",
+      "comment": "",
+      "command": "assertValue",
+      "target": "css=.gsc-search-button:nth-child(1)",
+      "targets": [
+        ["css=.gsc-search-button:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Search']", "xpath:attributes"],
+        ["xpath=//div[@id='BlogSearch1_form']/form/table/tbody/tr/td[2]/input", "xpath:idRelative"],
+        ["xpath=//td[2]/input", "xpath:position"]
+      ],
+      "value": "Search"
+    }, {
+      "id": "5ab3a8b8-dab5-4de4-9618-2bf09023380e",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2a63fb67-3b46-45e8-a726-1149b6597b62",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["cd8ecefb-7ca4-41d9-9cbd-8cbd84c9a1fd"]
+  }],
+  "urls": ["https://omayo.blogspot.com/"],
+  "plugins": []
+}

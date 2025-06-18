@@ -1,0 +1,272 @@
+{
+  "id": "44b1a694-9151-4473-83aa-98862a4a723f",
+  "version": "2.0",
+  "name": "Amazon",
+  "url": "https://www.amazon.in/",
+  "tests": [{
+    "id": "60dfa73f-3929-4d93-a5f4-54b0af8b2097",
+    "name": "Untitled",
+    "commands": []
+  }, {
+    "id": "6520129e-dfcf-4c12-9540-69b707289aa0",
+    "name": "iphone search",
+    "commands": [{
+      "id": "5782adbb-98aa-4187-a3a7-326685b9627e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.amazon.in/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "14758402-e3ec-472d-ab41-5e77f064f492",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "44330c36-0f4b-4d3a-b239-dc6c2d996c3e",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f78515e5-04e0-4e8a-8502-ee3fa2942315",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "iphone"
+    }, {
+      "id": "19530768-9541-4c51-a7be-3d7b9ac3d22f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cbbd74f6-dccb-46fa-84a0-ac7a5892bb30",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Bestsellers",
+      "targets": [
+        ["linkText=Bestsellers", "linkText"],
+        ["css=.nav-li:nth-child(4) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Bestsellers')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[4]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/?ref_=nav_cs_bestsellers')]", "xpath:href"],
+        ["xpath=//li[4]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Bestsellers')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a3064c8f-d53e-4146-bab6-8ba6f6cb2435",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#B01CCGW4OE .a-section",
+      "targets": [
+        ["css=#B01CCGW4OE .a-section", "css:finder"],
+        ["xpath=//div[@id='B01CCGW4OE']/a/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/span/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77e64045-2c03-4187-8e03-c5c766df3ccf",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#B01CCGW4OE .a-section",
+      "targets": [
+        ["css=#B01CCGW4OE .a-section", "css:finder"],
+        ["xpath=//div[@id='B01CCGW4OE']/a/div", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/span/div/a/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1de17d54-d6fd-4834-94e6-ba2ffcd82957",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=#B01CCGW4OE .a-dynamic-image",
+      "targets": [
+        ["css=#B01CCGW4OE .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='Cetaphil Paraben, Sulphate-Free Gentle Skin Hydrating Face Wash Cleanser with Niacinamide, Vitamin B5 for Dry to Normal, Sens']", "xpath:img"],
+        ["xpath=//div[@id='B01CCGW4OE']/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/span/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a79e05a2-9313-4d98-b2ab-d15748168721",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=#B01CCGW4OE .a-dynamic-image",
+      "targets": [
+        ["css=#B01CCGW4OE .a-dynamic-image", "css:finder"],
+        ["xpath=//img[@alt='Cetaphil Paraben, Sulphate-Free Gentle Skin Hydrating Face Wash Cleanser with Niacinamide, Vitamin B5 for Dry to Normal, Sens']", "xpath:img"],
+        ["xpath=//div[@id='B01CCGW4OE']/a/div/img", "xpath:idRelative"],
+        ["xpath=//li[3]/div/div[2]/span/div/a/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9872f547-783e-43ab-b401-f8c79bbfc7e3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=See More",
+      "targets": [
+        ["linkText=See More", "linkText"],
+        ["css=#CardInstance1iqSF3lIeEMQv59NP5Y1Ig .a-column .a-link-normal", "css:finder"],
+        ["xpath=//a[contains(text(),'See More')]", "xpath:link"],
+        ["xpath=//div[@id='CardInstance1iqSF3lIeEMQv59NP5Y1Ig']/div/div/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/bestsellers/beauty/ref=zg_bs_beauty_sm')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/div/div/div/div/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'See More')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd181dc7-eea7-4ed0-ba8a-547e963fa428",
+      "comment": "",
+      "command": "click",
+      "target": "id=zg_left_colmask",
+      "targets": [
+        ["id=zg_left_colmask", "id"],
+        ["css=#zg_left_colmask", "css:finder"],
+        ["xpath=//div[@id='zg_left_colmask']", "xpath:attributes"],
+        ["xpath=//div[@id='zg_col1']/div[2]", "xpath:idRelative"],
+        ["xpath=//div/div/div[2]/div/div/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8d1c1cd4-2c02-4e7c-bd82-3ce5e0fb24d7",
+      "comment": "",
+      "command": "click",
+      "target": "css=#CardInstance1iqSF3lIeEMQv59NP5Y1Ig .a-carousel-heading",
+      "targets": [
+        ["css=#CardInstance1iqSF3lIeEMQv59NP5Y1Ig .a-carousel-heading", "css:finder"],
+        ["xpath=//div[@id='CardInstance1iqSF3lIeEMQv59NP5Y1Ig']/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Bestsellers in Beauty')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "93dc3ad5-b56f-47ef-b703-e49da824e10d",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#CardInstance1iqSF3lIeEMQv59NP5Y1Ig .a-carousel-heading",
+      "targets": [
+        ["css=#CardInstance1iqSF3lIeEMQv59NP5Y1Ig .a-carousel-heading", "css:finder"],
+        ["xpath=//div[@id='CardInstance1iqSF3lIeEMQv59NP5Y1Ig']/div/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Bestsellers in Beauty')]", "xpath:innerText"]
+      ],
+      "value": "Bestsellers in Beauty"
+    }, {
+      "id": "62c32680-782c-47c2-9d6d-ac47e59f8df4",
+      "comment": "",
+      "command": "click",
+      "target": "id=nav-cart",
+      "targets": [
+        ["id=nav-cart", "id"],
+        ["css=#nav-cart", "css:finder"],
+        ["xpath=//a[@id='nav-cart']", "xpath:attributes"],
+        ["xpath=//div[@id='nav-tools']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/gp/cart/view.html?ref_=nav_cart')]", "xpath:href"],
+        ["xpath=//a[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b928bee7-88be-470f-8952-7fdec55d2d07",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Home & Kitchen",
+      "targets": [
+        ["linkText=Home & Kitchen", "linkText"],
+        ["css=.nav-li:nth-child(13) .nav-a", "css:finder"],
+        ["xpath=//a[contains(text(),'Home & Kitchen')]", "xpath:link"],
+        ["xpath=//div[@id='nav-xshop']/ul/li[13]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home')]", "xpath:href"],
+        ["xpath=//li[13]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Home & Kitchen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "743bbd3f-52ff-43c7-9482-8783b10bd883",
+      "comment": "",
+      "command": "click",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8a040063-0785-465d-a2e7-fce31e4a20c4",
+      "comment": "",
+      "command": "type",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "samsung"
+    }, {
+      "id": "849b4e91-dea3-4997-9b11-1c55eaaa936f",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=twotabsearchtextbox",
+      "targets": [
+        ["id=twotabsearchtextbox", "id"],
+        ["name=field-keywords", "name"],
+        ["css=#twotabsearchtextbox", "css:finder"],
+        ["xpath=//input[@id='twotabsearchtextbox']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-bar-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "273e1a18-4d04-4f71-aeae-5bc7a9b2fbb3",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,4)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "26941a69-42a0-440e-b5e4-0ee5882e67a8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["60dfa73f-3929-4d93-a5f4-54b0af8b2097"]
+  }],
+  "urls": ["https://www.amazon.in/"],
+  "plugins": []
+}
